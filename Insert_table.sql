@@ -38,22 +38,22 @@ INSERT INTO albums(alb_name, year_production)  VALUES ('Changes', 2020);
 INSERT INTO albums(alb_name, year_production)  VALUES ('Justice', 2021);
 
 -- Добавление записей в таблицу tracks
-INSERT INTO tracks (track_name, long_track,artist,album)  VALUES ('Океан', 4.34, 8, 2);
-INSERT INTO tracks (track_name, long_track,artist,album)  VALUES ('Химия', 3.20, 8, 2);
-INSERT INTO tracks (track_name, long_track,artist,album)  VALUES ('Молния', 2.59, 8, 2);
-INSERT INTO tracks (track_name, long_track,artist,album)  VALUES ('Про белые розы', 3.38, 8, 2);
-INSERT INTO tracks (track_name, long_track,artist,album)  VALUES ('Не вернусь', 3.38, 5, 4);
-INSERT INTO tracks (track_name, long_track,artist,album)  VALUES ('Глаза', 3.05, 5, 4);
-INSERT INTO tracks (track_name, long_track,artist,album)  VALUES ('Greatest', 3.46, 1, 5);
-INSERT INTO tracks (track_name, long_track,artist,album)  VALUES ('Normal', 3.42, 1, 5);
-INSERT INTO tracks (track_name, long_track,artist,album)  VALUES ('Kamikaze', 3.36, 1, 5);
-INSERT INTO tracks (track_name, long_track,artist,album)  VALUES ('Sweetener', 3.28, 3, 7);
-INSERT INTO tracks (track_name, long_track,artist,album)  VALUES ('Blazed', 3.16, 3, 7);
-INSERT INTO tracks (track_name, long_track,artist,album)  VALUES ('Shut up', 2.37, 3, 6);
-INSERT INTO tracks (track_name, long_track,artist,album)  VALUES ('Nasty', 3.20, 3, 6);
-INSERT INTO tracks (track_name, long_track,artist,album)  VALUES ('Be my baby', 3.37, 3, 6);
-INSERT INTO tracks (track_name, long_track,artist,album)  VALUES ('Habitual', 2.48, 4, 8);
-INSERT INTO tracks (track_name, long_track,artist,album)  VALUES ('Yammy', 3.28, 4, 8);
+INSERT INTO tracks (track_name, long_track,album)  VALUES ('Океан', 4.34, 2);
+INSERT INTO tracks (track_name, long_track,album)  VALUES ('Химия', 3.20, 2);
+INSERT INTO tracks (track_name, long_track,album)  VALUES ('Молния', 2.59, 2);
+INSERT INTO tracks (track_name, long_track,album)  VALUES ('Про белые розы', 3.38, 2);
+INSERT INTO tracks (track_name, long_track,album)  VALUES ('Не вернусь', 3.38, 4);
+INSERT INTO tracks (track_name, long_track,album)  VALUES ('Глаза', 3.05, 4);
+INSERT INTO tracks (track_name, long_track,album)  VALUES ('Greatest', 3.46, 5);
+INSERT INTO tracks (track_name, long_track,album)  VALUES ('Normal', 3.42, 5);
+INSERT INTO tracks (track_name, long_track,album)  VALUES ('Kamikaze', 3.36, 5);
+INSERT INTO tracks (track_name, long_track,album)  VALUES ('Sweetener', 3.28, 7);
+INSERT INTO tracks (track_name, long_track,album)  VALUES ('Blazed', 3.16, 7);
+INSERT INTO tracks (track_name, long_track,album)  VALUES ('Shut up', 2.37, 6);
+INSERT INTO tracks (track_name, long_track,album)  VALUES ('Nasty', 3.20, 6);
+INSERT INTO tracks (track_name, long_track,album)  VALUES ('Be my baby', 3.37, 6);
+INSERT INTO tracks (track_name, long_track,album)  VALUES ('Habitual', 2.48, 8);
+INSERT INTO tracks (track_name, long_track,album)  VALUES ('Yammy', 3.28, 8);
 
 --Добавление записей в таблицу collections
 INSERT INTO collections (collect_name,collct_year_prod)  VALUES ('13 друзей Билана', 2021);
